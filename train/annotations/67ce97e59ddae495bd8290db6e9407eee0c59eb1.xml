@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>67ce97e59ddae495bd8290db6e9407eee0c59eb1.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/67ce97e59ddae495bd8290db6e9407eee0c59eb1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>520</width>
+		<height>390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>133</xmin>
+			<ymin>45</ymin>
+			<xmax>330</xmax>
+			<ymax>378</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>170123-rothbaum-beer-can-birthday-embed-3_u3tpjd.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/170123-rothbaum-beer-can-birthday-embed-3_u3tpjd.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2100</width>
+		<height>1400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>48</xmin>
+			<ymin>70</ymin>
+			<xmax>642</xmax>
+			<ymax>1299</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>718</xmin>
+			<ymin>49</ymin>
+			<xmax>1339</xmax>
+			<ymax>1323</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1407</xmin>
+			<ymin>41</ymin>
+			<xmax>2030</xmax>
+			<ymax>1326</ymax>
+		</bndbox>
+	</object>
+</annotation>

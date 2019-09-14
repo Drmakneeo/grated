@@ -1,0 +1,50 @@
+<annotation>
+	<folder>batch_2</folder>
+	<filename>Beer-can-labels-for-Vitamin-Sea-Brewing-with-lids.jpg</filename>
+	<path>/Users/julianorillac/Downloads/batch_2/Beer-can-labels-for-Vitamin-Sea-Brewing-with-lids.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1091</width>
+		<height>1091</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>218</xmin>
+			<ymin>145</ymin>
+			<xmax>540</xmax>
+			<ymax>806</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>489</xmin>
+			<ymin>269</ymin>
+			<xmax>879</xmax>
+			<ymax>1016</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>795</xmin>
+			<ymin>461</ymin>
+			<xmax>1091</xmax>
+			<ymax>1081</ymax>
+		</bndbox>
+	</object>
+</annotation>

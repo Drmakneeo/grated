@@ -1,0 +1,50 @@
+<annotation>
+	<folder>batch_2</folder>
+	<filename>brew-wrap-can-labels.png</filename>
+	<path>/Users/julianorillac/Downloads/batch_2/brew-wrap-can-labels.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>413</width>
+		<height>532</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>33</xmin>
+			<ymin>173</ymin>
+			<xmax>182</xmax>
+			<ymax>448</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>171</xmin>
+			<ymin>185</ymin>
+			<xmax>323</xmax>
+			<ymax>453</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>239</xmin>
+			<ymin>158</ymin>
+			<xmax>359</xmax>
+			<ymax>411</ymax>
+		</bndbox>
+	</object>
+</annotation>

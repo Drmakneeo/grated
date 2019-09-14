@@ -1,0 +1,74 @@
+<annotation>
+	<folder>batch_2</folder>
+	<filename>Can_lineup.png</filename>
+	<path>/Users/julianorillac/Downloads/batch_2/Can_lineup.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2400</width>
+		<height>1366</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>102</xmin>
+			<ymin>163</ymin>
+			<xmax>525</xmax>
+			<ymax>1206</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>452</xmin>
+			<ymin>133</ymin>
+			<xmax>1032</xmax>
+			<ymax>1229</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1032</xmin>
+			<ymin>209</ymin>
+			<xmax>1338</xmax>
+			<ymax>1186</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1278</xmin>
+			<ymin>149</ymin>
+			<xmax>1768</xmax>
+			<ymax>1193</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1665</xmin>
+			<ymin>103</ymin>
+			<xmax>2315</xmax>
+			<ymax>1283</ymax>
+		</bndbox>
+	</object>
+</annotation>

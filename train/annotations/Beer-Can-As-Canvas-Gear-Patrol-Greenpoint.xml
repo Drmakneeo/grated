@@ -1,0 +1,50 @@
+<annotation>
+	<folder>batch_2</folder>
+	<filename>Beer-Can-As-Canvas-Gear-Patrol-Greenpoint.jpg</filename>
+	<path>/Users/julianorillac/Downloads/batch_2/Beer-Can-As-Canvas-Gear-Patrol-Greenpoint.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1940</width>
+		<height>1300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>460</xmin>
+			<ymin>1</ymin>
+			<xmax>760</xmax>
+			<ymax>541</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>314</xmin>
+			<ymin>539</ymin>
+			<xmax>614</xmax>
+			<ymax>1236</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>638</xmin>
+			<ymin>539</ymin>
+			<xmax>930</xmax>
+			<ymax>1239</ymax>
+		</bndbox>
+	</object>
+</annotation>

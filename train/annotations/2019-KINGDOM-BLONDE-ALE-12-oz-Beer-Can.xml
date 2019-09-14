@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>2019-KINGDOM-BLONDE-ALE-12-oz-Beer-Can.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/2019-KINGDOM-BLONDE-ALE-12-oz-Beer-Can.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>244</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>23</ymin>
+			<xmax>209</xmax>
+			<ymax>389</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>2015--StArcherBrewingCO.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/2015--StArcherBrewingCO.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>758</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>318</xmin>
+			<ymin>35</ymin>
+			<xmax>683</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>54f645999887e_-_beer-can-candles-del0213-de.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/54f645999887e_-_beer-can-candles-del0213-de.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>166</xmin>
+			<ymin>117</ymin>
+			<xmax>292</xmax>
+			<ymax>364</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>60</xmin>
+			<ymin>75</ymin>
+			<xmax>215</xmax>
+			<ymax>231</ymax>
+		</bndbox>
+	</object>
+</annotation>

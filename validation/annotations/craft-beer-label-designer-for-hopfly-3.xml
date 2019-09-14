@@ -1,0 +1,50 @@
+<annotation>
+	<folder>batch_2</folder>
+	<filename>craft-beer-label-designer-for-hopfly-3.png</filename>
+	<path>/Users/julianorillac/Downloads/batch_2/craft-beer-label-designer-for-hopfly-3.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2040</width>
+		<height>1386</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>101</xmin>
+			<ymin>96</ymin>
+			<xmax>633</xmax>
+			<ymax>1307</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>784</xmin>
+			<ymin>79</ymin>
+			<xmax>1281</xmax>
+			<ymax>1333</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1404</xmin>
+			<ymin>81</ymin>
+			<xmax>1938</xmax>
+			<ymax>1307</ymax>
+		</bndbox>
+	</object>
+</annotation>

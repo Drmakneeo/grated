@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>6108-cover.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/6108-cover.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>466</width>
+		<height>580</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>137</xmin>
+			<ymin>42</ymin>
+			<xmax>330</xmax>
+			<ymax>536</ymax>
+		</bndbox>
+	</object>
+</annotation>

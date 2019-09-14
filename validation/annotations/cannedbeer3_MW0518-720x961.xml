@@ -1,0 +1,26 @@
+<annotation>
+	<folder>batch_2</folder>
+	<filename>cannedbeer3_MW0518-720x961.png</filename>
+	<path>/Users/julianorillac/Downloads/batch_2/cannedbeer3_MW0518-720x961.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>961</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>214</xmin>
+			<ymin>158</ymin>
+			<xmax>474</xmax>
+			<ymax>763</ymax>
+		</bndbox>
+	</object>
+</annotation>

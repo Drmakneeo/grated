@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>61SfLc93+TL._SY741_.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/61SfLc93+TL._SY741_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>445</width>
+		<height>741</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>52</xmin>
+			<ymin>66</ymin>
+			<xmax>379</xmax>
+			<ymax>691</ymax>
+		</bndbox>
+	</object>
+</annotation>

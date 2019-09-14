@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>1974-can-do-not-enlarge.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/1974-can-do-not-enlarge.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>840</width>
+		<height>485</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>303</xmin>
+			<ymin>5</ymin>
+			<xmax>539</xmax>
+			<ymax>475</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>batch_2</folder>
+	<filename>Beyond The Pale.jpg</filename>
+	<path>/Users/julianorillac/Downloads/batch_2/Beyond The Pale.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2122</width>
+		<height>2970</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>585</xmin>
+			<ymin>540</ymin>
+			<xmax>1558</xmax>
+			<ymax>2356</ymax>
+		</bndbox>
+	</object>
+</annotation>

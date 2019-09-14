@@ -1,0 +1,38 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>170123-rothbaum-beer-can-birthday-embed-7_uh4fax.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/170123-rothbaum-beer-can-birthday-embed-7_uh4fax.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2100</width>
+		<height>1400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>254</xmin>
+			<ymin>97</ymin>
+			<xmax>945</xmax>
+			<ymax>1349</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1151</xmin>
+			<ymin>82</ymin>
+			<xmax>1851</xmax>
+			<ymax>1361</ymax>
+		</bndbox>
+	</object>
+</annotation>

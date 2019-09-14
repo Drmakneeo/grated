@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>61w0FkdifgL._SY606_.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/61w0FkdifgL._SY606_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>421</width>
+		<height>606</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>72</xmin>
+			<ymin>42</ymin>
+			<xmax>340</xmax>
+			<ymax>556</ymax>
+		</bndbox>
+	</object>
+</annotation>

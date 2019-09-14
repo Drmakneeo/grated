@@ -1,0 +1,50 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>5-onepint-1.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/5-onepint-1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2366</width>
+		<height>1722</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>620</xmin>
+			<ymin>287</ymin>
+			<xmax>954</xmax>
+			<ymax>1507</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>894</xmin>
+			<ymin>174</ymin>
+			<xmax>1465</xmax>
+			<ymax>1577</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1398</xmin>
+			<ymin>291</ymin>
+			<xmax>1775</xmax>
+			<ymax>1514</ymax>
+		</bndbox>
+	</object>
+</annotation>

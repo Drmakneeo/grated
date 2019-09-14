@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>barqs-root-beer-12-oz-can.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/barqs-root-beer-12-oz-can.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>10</ymin>
+			<xmax>396</xmax>
+			<ymax>745</ymax>
+		</bndbox>
+	</object>
+</annotation>

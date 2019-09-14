@@ -1,0 +1,26 @@
+<annotation>
+	<folder>batch_2</folder>
+	<filename>Chili-Brown-Sugar-Oven-Beer-Can-Chicken4.jpg</filename>
+	<path>/Users/julianorillac/Downloads/batch_2/Chili-Brown-Sugar-Oven-Beer-Can-Chicken4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>1353</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>209</xmin>
+			<ymin>162</ymin>
+			<xmax>541</xmax>
+			<ymax>945</ymax>
+		</bndbox>
+	</object>
+</annotation>

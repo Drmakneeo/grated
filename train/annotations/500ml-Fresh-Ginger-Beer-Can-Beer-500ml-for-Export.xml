@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>500ml-Fresh-Ginger-Beer-Can-Beer-500ml-for-Export.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/500ml-Fresh-Ginger-Beer-Can-Beer-500ml-for-Export.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>550</width>
+		<height>550</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>145</xmin>
+			<ymin>103</ymin>
+			<xmax>304</xmax>
+			<ymax>521</ymax>
+		</bndbox>
+	</object>
+</annotation>

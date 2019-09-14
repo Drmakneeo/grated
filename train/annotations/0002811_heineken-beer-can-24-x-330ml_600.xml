@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>0002811_heineken-beer-can-24-x-330ml_600.jpeg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/0002811_heineken-beer-can-24-x-330ml_600.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>495</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>136</xmin>
+			<ymin>89</ymin>
+			<xmax>367</xmax>
+			<ymax>512</ymax>
+		</bndbox>
+	</object>
+</annotation>

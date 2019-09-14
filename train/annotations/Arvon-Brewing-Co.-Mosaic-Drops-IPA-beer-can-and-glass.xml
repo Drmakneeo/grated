@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>Arvon-Brewing-Co.-Mosaic-Drops-IPA-beer-can-and-glass.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/Arvon-Brewing-Co.-Mosaic-Drops-IPA-beer-can-and-glass.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>986</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>574</xmin>
+			<ymin>275</ymin>
+			<xmax>879</xmax>
+			<ymax>959</ymax>
+		</bndbox>
+	</object>
+</annotation>

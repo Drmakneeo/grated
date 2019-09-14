@@ -1,0 +1,26 @@
+<annotation>
+	<folder>batch_2</folder>
+	<filename>can-plain.jpg</filename>
+	<path>/Users/julianorillac/Downloads/batch_2/can-plain.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>770</width>
+		<height>516</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>277</xmin>
+			<ymin>40</ymin>
+			<xmax>514</xmax>
+			<ymax>474</ymax>
+		</bndbox>
+	</object>
+</annotation>

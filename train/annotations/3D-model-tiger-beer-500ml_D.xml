@@ -1,0 +1,26 @@
+<annotation>
+	<folder>beer cans</folder>
+	<filename>3D-model-tiger-beer-500ml_D.jpg</filename>
+	<path>/Users/julianorillac/Downloads/beer cans/3D-model-tiger-beer-500ml_D.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>267</xmin>
+			<ymin>41</ymin>
+			<xmax>532</xmax>
+			<ymax>749</ymax>
+		</bndbox>
+	</object>
+</annotation>
