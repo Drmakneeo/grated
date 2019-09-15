@@ -16,26 +16,22 @@ def upload():
 	if request.method == 'POST':
 		f = request.files['file']
 		f.save(secure_filename(f.filename))
-		takeImage(f.filename)
+		detector = CustomObjectDetection()
+		detector.setModelTypeAsYOLOv3()
+		detector.setModelPath("../images/models/detection_model-ex-059--loss-0006.886.h5")
+		detector.setJsonPath("../images/json/detection_config.json")
+		detector.loadModel()
+		detections = detector.detectObjectsFromImage(input_image=f.filename, output_image_path="static/"+f.filename)
+		image = Image.open(f.filename)
+		for detection in detections:
+		    print(detection["name"], " : ", detection["percentage_probability"], " : ", detection["box_points"])
+			cropped_img = image.crop(detection["box_points"])
+			blurred_img = cropped_image.filter(ImageFilter.GaussianBlur(radius=20))
+			image.paste(blurred_img, detection["box_points"])
 		return render_template('image.html', image=f.filename)
 	return 'boo'
 
 app.run(host='0.0.0.0', port='80', debug='TRUE')
 
-def takeImage(filename):
-	detector = CustomObjectDetection()
-	detector.setModelTypeAsYOLOv3()
-	detector.setModelPath("../images/models/detection_model-ex-059--loss-0006.886.h5")
-	detector.setJsonPath("../images/json/detection_config.json")
-	detector.loadModel()
-	detections = detector.detectObjectsFromImage(input_image=filename, output_image_path="static/"+filename)
-	image = Image.open(filename)
-	for detection in detections:
-	    print(detection["name"], " : ", detection["percentage_probability"], " : ", detection["box_points"])
-	    blurImage(image, detection["box_points"])
-	return "success"
 
-def blurImage(img, box):
-	cropped_img = img.crop(box)
-	blurred_img = cropped_image.filter(ImageFilter.GaussianBlur(radius=20))
-	img.paste(blurred_img, box)
+
