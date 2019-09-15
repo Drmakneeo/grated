@@ -8,7 +8,7 @@ from PIL import Image, ImageFilter
 
 app = Flask(__name__)
 
-app.configure["UPLOAD_PATH"] = "static"
+app.config["UPLOAD_PATH"] = "static"
 
 @app.route('/')
 def home():
@@ -19,7 +19,7 @@ def upload():
 	if request.method == 'POST':
 		f = request.files['file']
 		filename = secure_filename(f.filename)
-		f.save(os.path.join(app.configure["UPLOAD_PATH"], filename))
+		f.save(os.path.join(app.config["UPLOAD_PATH"], filename))
 		detector = CustomObjectDetection()
 		detector.setModelTypeAsYOLOv3()
 		detector.setModelPath("../images/models/detection_model-ex-059--loss-0006.886.h5")
