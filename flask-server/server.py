@@ -6,9 +6,9 @@ from werkzeug import secure_filename
 from imageai.Detection.Custom import CustomObjectDetection
 from PIL import Image, ImageFilter
 
-app.configure["UPLOAD_PATH"] = "static"
-
 app = Flask(__name__)
+
+app.configure["UPLOAD_PATH"] = "static"
 
 @app.route('/')
 def home():
