@@ -36,6 +36,6 @@ function takeImage(filename):
 	return "success"
 
 function blurImage(img, box[]):
-	cropped_img = image.crop(box)
+	cropped_img = img.crop(box)
 	blurred_img = cropped_image.filter(ImageFilter.GaussianBlur(radius=20))
 	img.paste(blurred_img, box)
