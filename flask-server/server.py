@@ -22,7 +22,7 @@ def upload():
 
 app.run(host='0.0.0.0', port='80', debug='TRUE')
 
-function takeImage(filename):
+def takeImage(filename):
 	detector = CustomObjectDetection()
 	detector.setModelTypeAsYOLOv3()
 	detector.setModelPath("../images/models/detection_model-ex-059--loss-0006.886.h5")
@@ -35,7 +35,7 @@ function takeImage(filename):
 	    blurImage(image, detection["box_points"])
 	return "success"
 
-function blurImage(img, box[]):
+def blurImage(img, box[]):
 	cropped_img = img.crop(box)
 	blurred_img = cropped_image.filter(ImageFilter.GaussianBlur(radius=20))
 	img.paste(blurred_img, box)
