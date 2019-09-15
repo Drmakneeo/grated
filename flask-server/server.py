@@ -32,7 +32,7 @@ def upload():
 			cropped_img = image.crop(detection["box_points"])
 			blurred_img = cropped_img.filter(ImageFilter.GaussianBlur(radius=20))
 			image.paste(blurred_img, detection["box_points"])
-		return render_template('image.html', image="static/"+f.filename)
+		return render_template('image.html', image=f.filename)
 	return 'boo'
 
 app.run(host='0.0.0.0', port='80', debug='TRUE')
