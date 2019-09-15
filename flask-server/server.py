@@ -29,7 +29,7 @@ def upload():
 		image = Image.open("static/"+f.filename)
 		for detection in detections:
 			print(detection["name"], " : ", detection["percentage_probability"], " : ", detection["box_points"])
-			cropped_img = image.crop(detection["box_points"][0], detection["box_points"][1], detection["box_points"][2], detection["box_points"][3])
+			cropped_img = image.crop((detection["box_points"][0], detection["box_points"][1], detection["box_points"][2], detection["box_points"][3]))
 			blurred_img = cropped_img.filter(ImageFilter.GaussianBlur(radius=20))
 			#image.paste(blurred_img, detection["box_points"])
 		return render_template('image.html', image=f.filename, timage="trashfire-"+f.filename)
