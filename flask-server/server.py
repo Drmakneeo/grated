@@ -25,11 +25,11 @@ def upload():
 		detector.setModelPath("../images/models/detection_model-ex-059--loss-0006.886.h5")
 		detector.setJsonPath("../images/json/detection_config.json")
 		detector.loadModel()
-		detections = detector.detectObjectsFromImage(input_image="static/"+f.filename, output_image_path="static/trashfire-"+f.filename)
+		detections = detector.detectObjectsFromImage(input_image="static/"+f.filename, output_image_path="static/trashfire-"+f.filename, minimum_percentage_probability=30)
 		image = Image.open("static/"+f.filename)
 		for detection in detections:
 			print(detection["name"], " : ", detection["percentage_probability"], " : ", detection["box_points"])
-			cropped_img = image.crop(detection["box_points"])
+			cropped_img = image.crop(detection["box_points"][0], detection["box_points"][1], detection["box_points"][2], detection["box_points"][3])
 			blurred_img = cropped_img.filter(ImageFilter.GaussianBlur(radius=20))
 			#image.paste(blurred_img, detection["box_points"])
 		return render_template('image.html', image=f.filename, timage="trashfire-"+f.filename)
