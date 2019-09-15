@@ -24,7 +24,7 @@ def upload():
 		detections = detector.detectObjectsFromImage(input_image=f.filename, output_image_path="static/"+f.filename)
 		image = Image.open(f.filename)
 		for detection in detections:
-		    print(detection["name"], " : ", detection["percentage_probability"], " : ", detection["box_points"])
+			print(detection["name"], " : ", detection["percentage_probability"], " : ", detection["box_points"])
 			cropped_img = image.crop(detection["box_points"])
 			blurred_img = cropped_image.filter(ImageFilter.GaussianBlur(radius=20))
 			image.paste(blurred_img, detection["box_points"])
@@ -32,6 +32,3 @@ def upload():
 	return 'boo'
 
 app.run(host='0.0.0.0', port='80', debug='TRUE')
-
-
-
